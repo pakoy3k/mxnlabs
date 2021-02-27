@@ -6,7 +6,10 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
+html {
+background-color:#1a1a1a;
 
+}
 body {
   background-color: #f2f2f2;
     font-family: 'EB Garamond', serif;
