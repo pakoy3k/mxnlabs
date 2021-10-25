@@ -1,6 +1,8 @@
 /*------------------------------------------------
 	Base Styles
 -------------------------------------------------*/
+
+
 body {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
@@ -115,7 +117,8 @@ textarea, label {
 
 .pt-tablecell {
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle; 
+}
 
 .overlay {
   position: absolute;
@@ -225,6 +228,7 @@ textarea, label {
 .site-wrapper {
   border-top: 4px solid #FA6862; }
 
+
 .page-close {
   font-size: 30px;
   position: absolute;
@@ -233,7 +237,7 @@ textarea, label {
   z-index: 100; }
 
 .page-title {
-  margin-bottom: 75px; }
+  margin-bottom: 35px; }
   .page-title img {
     margin-bottom: 20px; 
     width: 250px;
@@ -303,6 +307,12 @@ textarea, label {
 /*------------------------------------------------
     Home Page
 -------------------------------------------------*/
+.page-contact {
+  background-image: url('../img/banner.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .page-home {
   background-position: center center;
   background-repeat: no-repeat;
@@ -312,12 +322,16 @@ textarea, label {
     background-color: rgba(255, 255, 255, 0.93); }
 
 /* End of container */
+.hexagon-menu{
+
+}
 .hexagon-item {
   cursor: pointer;
   width: 200px;
   height: 173.20508px;
   float: left;
-  margin-left: -29px;
+  margin-left: -120px;
+  margin-right: 95px;
   z-index: 0;
   position: relative;
   -webkit-transform: rotate(30deg);
@@ -326,7 +340,7 @@ textarea, label {
   -o-transform: rotate(30deg);
   transform: rotate(30deg); }
   .hexagon-item:first-child {
-    margin-left: 0; }
+     }
   .hexagon-item:hover {
     z-index: 1; }
     .hexagon-item:hover .hex-item:last-child {
@@ -917,7 +931,11 @@ textarea, label {
     font-weight: 600; }
   .contact-block p {
     font-weight: 400;
-    font-size: 15px; }
+    font-size: 15px; 
+    color:  #1e2530;
+
+  }
+
 
 .contact-social {
   list-style: outside none none;
@@ -1040,7 +1058,7 @@ textarea, label {
 
 .pt-table.desktop-768 .pt-tablecell {
   padding-bottom: 110px;
-  padding-top: 60px; }
+ /*padding-top: 60px; */}
   .pt-table.desktop-768 .pt-tablecell .page-nav {
     bottom: 40px; }
 
